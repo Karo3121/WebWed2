@@ -1,0 +1,82 @@
+.planBigDiv{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.planBigDiv h1{
+    font-size: 25px;
+}
+
+
+.planBigDiv h2{
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img img{
+    width: 70px;
+    height: 70px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.lineDiv{
+    justify-content: center;
+    width: 2px;
+    height: 70px;
+    background-color: #000000;
+}
+
+.text{
+    width: 250px;
+}
+
+
+.timeHidden{
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+    .timeDiv{
+        display: none;
+
+    }
+    .planBigDiv{
+        width: 300px;
+    }
+    .planBigDiv h1{
+        font-size: 18px;
+    }
+    .timeHidden{
+        display: block;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:400px) {
+
+    .planBigDiv{
+        width: 230px;
+    }
+    .text{
+        width: 120px;
+    }
+    .planBigDiv h1{
+        font-size: 12px;
+    }
+    .textSmall{
+        font-size: 10px;
+    }
+}
