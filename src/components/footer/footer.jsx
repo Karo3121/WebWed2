@@ -29,7 +29,7 @@ function Footer() {
                             </div>
                             <div>
                                 <img src={phoneImg} alt="" />
-                                <h1>+374 96 26 46 02 <br />  +374 96 50 31 02</h1>
+                                <h1> <br />  +374 96 50 31 02</h1>
                             </div>
                             
                         </div>
